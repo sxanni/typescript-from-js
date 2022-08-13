@@ -10,19 +10,33 @@
 </head>
 <body>
 
-  <body>
-    <input id="message" type="text" name="message" value="Initial Value" />
+    <H1 class="title"> Fantasy Clash </H1>
+    <!-- <canvas id="myCanvas" width="100%" height="100%"></canvas> -->
+    <div id="myGallery">
 
-    <script src="./js/script.ts"></script>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <img src="img/roof fight.gif"/>
-  
-  
-  </body>
+        
+        <img class="active" src="img/roof fight.gif" alt="">
+        <img src="img/edward-elric-fma.gif" alt="">
+        <img src="img/fullmetal-alchemist-roy-mustang.gif" alt="">
+        <img src="img/kyojuro-rengoku-vs-akaza-demon.gif" alt="">
+        <img src="img/letlose-fight.gif" alt="">
+        <img src="img/naruto-haku.gif" alt="">
+        <img src="img/naruto-sasuke.gif" alt="">
+        <img src="img/roof fight.gif" alt="">
+        <img src="img/naruto-sasuke1.gif" alt="">
+    </div>
 
+    <div class="gameArea">
 
-   
+        <h2>You Chose: <span id="userChoice"></span> </h2>
+        <h2>Opps Chose: <span id="compChoice"></span> </h2>
+        <h2>Result: <span id="result"></span> </h2>
+        
+        <button id="Shield"> Shield </button>
+        <button id="Magic"> Magic </button>
+        <button id="Blade"> Blade </button>
+    </div>
+
+    <script src="js/script.ts"></script>
+</body>
 </html>
